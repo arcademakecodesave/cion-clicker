@@ -3,9 +3,8 @@ namespace SpriteKind {
     export const text = SpriteKind.create()
 }
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-	
+    info.changeScoreBy(1)
 })
-let mySprite2: Sprite = null
 scene.setBackgroundImage(img`
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
@@ -146,24 +145,4 @@ let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.clicker)
-forever(function () {
-    mySprite2.setPosition(61, 6)
-    mySprite2 = sprites.create(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . 1 . . . . . . . . 1 1 . 1 . 
-        . 1 . 1 . . . . . . 1 . . . 1 . 
-        1 . . . 1 . 1 1 1 . 1 . . . 1 . 
-        1 1 1 1 1 . . . . . 1 . . . 1 . 
-        1 . . . 1 . 1 1 1 . . 1 1 . 1 1 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, SpriteKind.text)
-})
+scaling.scaleByPixels(mySprite, 40, ScaleDirection.Horizontally, ScaleAnchor.Middle, true)
