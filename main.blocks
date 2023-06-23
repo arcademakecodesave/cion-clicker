@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="mKm1lU:w*[{aKR.VlKtp">mySprite</variable><variable type="KIND_SpriteKind" id="u)~_uy5co#EAg+Ng^?K9">Player</variable><variable type="KIND_SpriteKind" id="NN#TC*U{)?{b/`zrQLU#">Projectile</variable><variable type="KIND_SpriteKind" id="hH.jN9OkX|OG-ZM-frkl">Food</variable><variable type="KIND_SpriteKind" id="UPkWVqSlTf,DuFCI45gJ">Enemy</variable></variables><block type="pxt-on-start" id="htxvRp%x$g:k:6*/S*cN" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="Hi*zNX6!df?ab`@cv6Y_"><field name="VAR" id="mKm1lU:w*[{aKR.VlKtp">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="jWFfm}--tR+Z0G:h-E18"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. 5 5 5 5 5 5 . . . . . . . . . 
+5 5 5 5 5 5 5 5 . . . . . . . . 
+5 5 5 f f 5 5 5 . . . . . . . . 
+5 5 f f f f 5 5 . . . . . . . . 
+5 5 f f f f 5 5 . . . . . . . . 
+5 5 f f f f 5 5 . . . . . . . . 
+5 5 f f f f 5 5 . . . . . . . . 
+5 5 f f f f 5 5 . . . . . . . . 
+5 5 f f f f 5 5 . . . . . . . . 
+5 5 f f f f 5 5 . . . . . . . . 
+5 5 5 f f 5 5 5 . . . . . . . . 
+5 5 5 5 5 5 5 5 . . . . . . . . 
+. 5 5 5 5 5 5 . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"LzX}xiHaD5R!/Qt!2Nv)"}}</data></shadow><block type="screen_image_picker" id="]TiHKzY4I2Z-U#:r*i$8"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . 5 5 5 5 5 5 . . . . . 
+. . . . 5 5 5 5 5 5 5 5 . . . . 
+. . . . 5 5 5 f f 5 5 5 . . . . 
+. . . . 5 5 f f f f 5 5 . . . . 
+. . . . 5 5 f f f f 5 5 . . . . 
+. . . . 5 5 f f f f 5 5 . . . . 
+. . . . 5 5 f f f f 5 5 . . . . 
+. . . . 5 5 f f f f 5 5 . . . . 
+. . . . 5 5 f f f f 5 5 . . . . 
+. . . . 5 5 f f f f 5 5 . . . . 
+. . . . 5 5 5 f f 5 5 5 . . . . 
+. . . . 5 5 5 5 5 5 5 5 . . . . 
+. . . . . 5 5 5 5 5 5 . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"]TiHKzY4I2Z-U#:r*i$8"}}</data></block></value><value name="kind"><shadow type="spritekind" id="BcB-c$D2$h=qc5|YdAG4"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="keyonevent" id=";_H~bXDR:M]:|(aF`5|^" x="-30" y="170"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>
